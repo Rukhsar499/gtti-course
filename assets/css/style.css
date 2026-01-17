@@ -1,0 +1,371 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box !important;
+
+}
+@font-face {
+    font-family: 'HighVoltageRough';
+    src: url('../assets/HighVoltage-Rough.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+.course-d{
+  font-family: 'HighVoltage-Rough.ttf', sans-serif;
+  color: #1B1564;
+  font-weight: 600;
+}
+p{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #6E6868;
+}
+h6{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  color: #2A2A2A;
+}
+.enrol-btn {
+    background: #1e1b6d;
+    color: #fff;
+    padding: 10px 24px;
+    font-weight: 600;
+    text-decoration: none;
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+}
+
+.enrol-btn::after {
+    content: "";
+    position: absolute;
+    right: -18px;
+    top: 0;
+    width: 0;
+    height: 0;
+    border-top: 22px solid transparent;
+    border-bottom: 22px solid transparent;
+    border-left: 18px solid #1e1b6d;
+}
+
+.enrol-btn::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -4px;
+    width: 100%;
+    height: 4px;
+    background: #f5b400;
+}
+
+.enrol-btn:hover {
+    color: #fff;
+}
+
+/* Brochure Button */
+.brochure-btn {
+    background: #6e6e6e;
+    color: #fff;
+    padding: 10px 24px;
+    font-weight: 600;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    position: relative;
+}
+
+.brochure-btn:hover {
+    background: #6e6e6e;
+    color: #fff;
+}
+.brochure-btn::after {
+    content: "";
+    position: absolute;
+    right: -18px;
+    top: 0;
+    width: 0;
+    height: 0;
+    border-top: 22px solid transparent;
+    border-bottom: 22px solid transparent;
+    border-left: 18px solid #6e6e6e;
+}
+.mb{
+  margin-bottom: 50px;
+}
+.partner-img {
+    width: 60% !important;
+    margin: auto;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+.partner-img:hover {
+    -webkit-filter: grayscale(0);
+    filter: grayscale(0);
+}
+.courd-tet{
+  background-color: #FAFAFF;
+  border-radius: 30px;
+  padding: 40px;
+}
+.application-card {
+   
+    background: linear-gradient(135deg, #ffcc00, #ffe066);
+    border-radius: 22px;
+    padding: 30px 25px;
+    position: relative;
+    box-shadow: 10px 12px 0 #1b1a6d;
+    border: 2px solid #1b1a6d;
+}
+
+.form-title {
+    text-align: center;
+    font-weight: 700;
+    color: #1b1a6d;
+    margin-bottom: 25px;
+}
+
+.custom-input {
+    height: 52px;
+    border-radius: 10px;
+    border: none;
+    background: #fffaf0;
+    padding-left: 16px;
+    font-size: 15px;
+}
+
+.custom-input:focus {
+    box-shadow: none;
+    outline: 2px solid #ffcc00;
+}
+
+.submit-btn {
+    width: 100%;
+    height: 52px;
+    border: none;
+    border-radius: 10px;
+    background: #222;
+    color: #fff;
+    font-weight: 600;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.submit-btn:hover {
+    background: #000;
+}
+
+.curriculum-wrapper {
+    background: #fff9ec;
+    border-radius: 50px;
+    padding: 40px ;
+}
+
+.curriculum-title {
+    font-weight: 700;
+    color: #1b1a6d;
+}
+
+.custom-accordion {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #ccc;
+}
+
+.accordion-button {
+    background: transparent;
+    box-shadow: none;
+    font-weight: 500;
+    padding-left: 0;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+}
+
+.accordion-button:not(.collapsed) {
+    color: #000;
+    background: transparent;
+}
+
+.accordion-button::after {
+    background-size: 16px;
+}
+
+.accordion-body {
+    padding-left: 0;
+    font-size: 14px;
+    color: #555;
+}
+
+.feature-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 14px;
+}
+
+.feature-item i {
+    background: #ffc400;
+    color: #000;
+    padding: 8px;
+    border-radius: 50%;
+    font-size: 13px;
+}
+.student-testimonial {
+    background: #fff;
+}
+
+.testimonial-title {
+    font-weight: 700;
+    color: #1b1a6d;
+}
+
+.testimonial-card {
+    background: #f2f2f2;
+    padding: 60px 25px 30px;
+    border-radius: 6px;
+    position: relative;
+}
+
+.student-img {
+    position: absolute;
+    top: -40px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #ffc400;
+    padding: 6px;
+    border-radius: 50%;
+}
+
+.student-img img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.testimonial-text {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.student-name {
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+.student-role {
+    font-size: 13px;
+    color: #777;
+}
+
+.course-card {
+    border-radius: 6px;
+    overflow: hidden;
+    background: #fff;
+    position: relative;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* image */
+.course-img img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+}
+
+/* footer */
+.course-footer {
+    padding: 10px 14px;
+    font-size: 14px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #fff;
+    transition: 0.3s;
+}
+
+/* ===============================
+   DEFAULT ACTIVE (only when NO hover on row)
+================================ */
+.row:not(:hover) .course-card.active .course-footer {
+    background: #ffc400;
+    font-weight: 600;
+}
+
+.row:not(:hover) .course-card.active::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 80px;
+    height: 80px;
+    background: #ffc400;
+    border-bottom-right-radius: 100%;
+    z-index: 2;
+}
+
+/* ===============================
+   HOVER ACTIVE (override default)
+================================ */
+.course-card:hover .course-footer {
+    background: #ffc400;
+    font-weight: 600;
+}
+
+.course-card:hover::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 80px;
+    height: 80px;
+    background: #ffc400;
+    border-bottom-right-radius: 100%;
+    z-index: 2;
+}
+
+/* optional lift */
+.course-card:hover {
+    transform: translateY(-6px);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 1200px) and (max-width: 1400px) {
+ 
+}
+
+@media screen and (max-width: 767px) {
+  
+}
