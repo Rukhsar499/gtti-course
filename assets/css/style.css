@@ -335,7 +335,14 @@ h6{
 .course-card:hover {
     transform: translateY(-6px);
 }
-
+.third-section{
+    background-color: #FAFAFF;
+    padding: 40px;
+    border-radius: 30px;
+}
+.chos-sec{
+    margin-top: 40px;
+}
 
 
 
