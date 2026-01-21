@@ -5,15 +5,17 @@
 
 }
 @font-face {
-    font-family: 'HighVoltageRough';
-    src: url('../assets/HighVoltage-Rough.ttf') format('truetype');
+    font-family: 'Regular Regular';
+    src: url('../HighVoltage\ Rough.woff') format('woff');
     font-weight: normal;
     font-style: normal;
+    font-display: swap;
 }
-.course-d{
-  font-family: 'HighVoltage-Rough.ttf', sans-serif;
-  color: #1B1564;
-  font-weight: 600;
+
+.course-d {
+    font-family: 'Regular Regular', sans-serif;
+    font-weight: 400;
+    color: #1B1564;
 }
 p{
   font-family: 'Poppins', sans-serif;
@@ -21,6 +23,13 @@ p{
   font-size: 16px;
   line-height: 28px;
   color: #6E6868;
+}
+.uato{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 36px;
+    color: #484848;
 }
 h6{
   font-family: 'Poppins', sans-serif;
@@ -76,6 +85,7 @@ h6{
     display: inline-flex;
     align-items: center;
     position: relative;
+    margin-left: 20px;
 }
 
 .brochure-btn:hover {
@@ -105,9 +115,27 @@ h6{
     -webkit-filter: grayscale(0);
     filter: grayscale(0);
 } */
+ .tab-fix {
+    height: 420px;
+    overflow: auto;
+    margin: 0 auto;
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: var(--bs-nav-pills-link-active-color);
+    background-color: #0948a8;
+}
+.pill-link {
+    border-radius: 9px;
+    background-color: #fff;
+    color: #000;
+    margin-right: 20px;
+    font-family: 'Poppins', sans-serif;
+    padding: 10px 20px;
+    margin-top: 10px;
+}
 .courd-tet{
   background-color: #FAFAFF;
-  border-radius: 30px;
+  border-radius: 20px;
   padding: 40px;
 }
 .application-card {
@@ -347,7 +375,9 @@ h6{
     padding: 40px;
     border-radius: 30px;
 }
-
+.dbv{
+    margin-top: 50px;
+}
 
 
 
@@ -377,5 +407,31 @@ h6{
 }
 
 @media screen and (max-width: 767px) {
-  
+  .courd-tet {
+   padding: 30px;
+   margin-bottom: 20px;
+}
+.curriculum-wrapper, .third-section, .course-box {
+padding: 20px;
+}
+.uato {
+font-size: 22px;
+line-height: 30px;
+   
+}
+.testimonial-card{
+    margin-top: 40px;
+}
+.accordion-button {
+font-size: 16px;
+}
+.pill-link {
+padding: 10px;
+}
+.dbv {
+    margin-top: 0px;
+}
+.c-imhfg{
+    margin:30px 0px 20px 0px
+}
 }
