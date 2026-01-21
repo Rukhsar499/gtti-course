@@ -99,13 +99,12 @@ h6{
 .partner-img {
     width: 60% !important;
     margin: auto;
-    -webkit-filter: grayscale(100%);
-    filter: grayscale(100%);
+   
 }
-.partner-img:hover {
+/* .partner-img:hover {
     -webkit-filter: grayscale(0);
     filter: grayscale(0);
-}
+} */
 .courd-tet{
   background-color: #FAFAFF;
   border-radius: 30px;
@@ -343,7 +342,11 @@ h6{
 .chos-sec{
     margin-top: 40px;
 }
-
+.course-box{
+    background-color: #FFFAE6;
+    padding: 40px;
+    border-radius: 30px;
+}
 
 
 
