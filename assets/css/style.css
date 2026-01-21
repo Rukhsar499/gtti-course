@@ -412,10 +412,10 @@ h6{
    margin-bottom: 20px;
 }
 .curriculum-wrapper, .third-section, .course-box {
-padding: 20px;
+padding: 30px;
 }
 .uato {
-font-size: 22px;
+font-size: 20px;
 line-height: 30px;
    
 }
@@ -426,12 +426,16 @@ line-height: 30px;
 font-size: 16px;
 }
 .pill-link {
-padding: 10px;
+padding: 10px 12px;
+font-size: 14px;
 }
 .dbv {
     margin-top: 0px;
 }
 .c-imhfg{
     margin:30px 0px 20px 0px
+}
+.chos-sec {
+    margin-top: 20px;
 }
 }
