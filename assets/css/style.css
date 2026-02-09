@@ -52,6 +52,7 @@ h6{
     display: inline-flex;
     align-items: center;
     font-family: 'Be Vietnam Pro', sans-serif;
+    cursor: pointer;
 }
 
 .enrol-btn::after {
@@ -92,6 +93,7 @@ h6{
     position: relative;
     margin-left: 20px;
     font-family: 'Be Vietnam Pro', sans-serif;
+    cursor: pointer;
 }
 
 .brochure-btn:hover {
